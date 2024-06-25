@@ -1,0 +1,194 @@
+body{
+    background-color: rgb(8, 2, 44);
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(7, 230, 4, 0.979);
+    width: 30%;
+    height: 40%;
+    margin-top: 6%;
+    margin-left: 10%;    
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 6%;
+    font: 3.5em Times New Roman;    
+}
+label{
+    margin-right: 10px;
+    color: whitesmoke;
+    font: 2.5em Times;
+    align-items: center;
+    margin-top: 50%;
+}
+input{
+    font: 2.5em Times;
+    background: transparent;
+    color: rgba(7, 230, 4, 0.979);
+    border-color: whitesmoke;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    border: none;    
+}
+button{
+    padding: 15px 20px;
+    background-color: rgba(7, 230, 4, 0.979);
+    color: rgb(8, 2, 44);
+    border-color: transparent;
+    border-radius: 80px;
+    cursor: pointer;
+    margin-top: 15%;
+    font: 1.2em Times;
+    margin-left: 30%;
+    width: 40%;    
+}
+button:hover{
+    background: transparent;
+    color: rgba(7, 230, 4, 0.979);
+    border-color: rgba(7, 230, 4, 0.979);
+}
+h2{
+    margin-top: -23%;
+    font: 2.5em Times;
+    color: whitesmoke;
+    justify-content: right;
+    display: flex;
+    margin-right: 35%;    
+}
+#year{
+    color: rgb(8, 2, 44);
+    display: flex;
+    justify-content: center;
+    background: rgba(7, 230, 4, 0.979);
+    margin-left: 68%;
+    font: 2em Times;
+    width: 10%;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 15px;
+    cursor: pointer;    
+}
+#month{
+    color: rgb(8, 2, 44);
+    display: flex;
+    justify-content: center;
+    background: rgba(7, 230, 4, 0.979);
+    margin-left: 68%;
+    font: 2em Times;
+    width: 10%;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 15px;
+    cursor: pointer;    
+}
+#day{
+    color: rgb(8, 2, 44);
+    display: flex;
+    justify-content: center;
+    background: rgba(7, 230, 4, 0.979);
+    margin-left: 68%;
+    font: 2em Times;
+    width: 10%;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 15px;
+    cursor: pointer;    
+}
+ @media(max-width: 1024px){
+        h2{
+            margin-top: -45%;
+            font: 1.8em Times;
+            color: whitesmoke;
+            justify-content: right;
+            display: flex;
+            margin-right: 28%;    
+        }
+        .container{
+            margin-top:18%;
+        }
+        label{
+            margin-right: 10px;
+            color: whitesmoke;
+            font: 1.8em Times;
+            align-items: center;
+            
+        }
+        input{
+            font: 1.5em Times;
+            background: transparent;
+            color: rgba(7, 230, 4, 0.979);
+            border-color: whitesmoke;
+            margin-top: 28%;
+            margin-left: 10%;
+            width: 80%;
+            border: none;    
+        }
+        button{
+            padding: 10px 15px;
+            background-color: rgba(7, 230, 4, 0.979);
+            color: rgb(8, 2, 44);
+            border-color: transparent;
+            border-radius: 40px;
+            cursor: pointer;
+            margin-top: 35%;
+            font: 1.2em Times;
+            margin-left: 10%;
+            width: 80%;    
+        }
+        h1{
+            text-align: center;
+            color: whitesmoke;
+            margin-top: 6%;
+            font: 3em Times New Roman;
+        }
+        #year{
+            color: rgb(8, 2, 44);
+            display: flex;
+            justify-content: center;
+            background: rgba(7, 230, 4, 0.979);
+            margin-left: 68%;
+            font: 1.7em Times;
+            width: 20%;
+            text-align: center;
+            margin-top: 5%;
+            border-radius: 12px;
+            cursor: pointer;    
+        }
+        #month{
+            color: rgb(8, 2, 44);
+            display: flex;
+            justify-content: center;
+            background: rgba(7, 230, 4, 0.979);
+            margin-left: 68%;
+            font: 1.7em Times;
+            width: 20%;
+            text-align: center;
+            margin-top: 6%;
+            border-radius: 12px;
+            cursor: pointer;    
+        }
+        #day{
+            color: rgb(8, 2, 44);
+            display: flex;
+            justify-content: center;
+            background: rgba(7, 230, 4, 0.979);
+            margin-left: 68%;
+            font: 1.7em Times;
+            width: 20%;
+            text-align: center;
+            margin-top: 6%;
+            border-radius: 12px;
+            cursor: pointer;    
+        }
+    }   
+        
+
+
+
